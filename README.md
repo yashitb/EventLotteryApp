@@ -1,72 +1,41 @@
-Overview
+## 📝 Overview
 
-EventLotteryApp is an Android application built with Java and Firebase Firestore, designed to make registration for high-demand community events fair, efficient, and accessible.
+**EventLotteryApp** is an Android application built with **Java** and **Firebase Firestore**, designed to make registration for high-demand community events **fair**, **efficient**, and **accessible**.
 
-Instead of forcing users to race to register the moment an event opens, this app allows entrants to join a waiting list during an open registration window. When the window closes, a lottery system randomly selects participants, notifies them, and manages replacements if someone declines.
+Instead of forcing users to race to register the moment an event opens, entrants join a **waiting list** during a registration window. When the window closes, a **lottery system** randomly selects participants, notifies them, and fills cancelled spots with replacement entrants.
 
-This ensures equal opportunity for people with work, accessibility, or schedule limitations.
+This ensures **equal opportunity** for people with work, accessibility, or schedule limitations.
 
-Features
-👤 Entrant Features
 
-Browse events open for registration
+---
 
-Join or leave event waiting lists
+## ✨ Features
 
-Scan QR codes to quickly access event details
 
-Receive lottery notifications (selected / not selected)
+### 👤 Entrant Features
+- Browse events open for registration  
+- Join or leave event waiting lists  
+- Scan QR codes to quickly access event details  
+- Receive lottery notifications (selected / not selected)  
+- Accept or decline invitations  
+- View profile & update personal details  
+- See history of past registrations  
+- Device-based identification (no login required)
 
-Accept or decline invitations
 
-View profile & update personal details
+### 🧑‍💼 Organizer Features
+- Create and publish events with posters, dates, and registration windows  
+- Generate QR codes for event promotion  
+- View and manage entrant waiting lists  
+- Enable or disable geolocation requirements  
+- Trigger lottery sampling  
+- Send targeted notifications (selected, cancelled, waiting list)  
+- Draw replacement entrants when someone cancels  
+- Export final confirmed attendee list (CSV)  
 
-See history of past registrations
 
-Device-based identification (no required login)
-
-🧑‍💼 Organizer Features
-
-Create and publish events with posters, dates, and registration windows
-
-Generate QR codes for event promotion
-
-View and manage entrant waiting lists
-
-Enable/disable geolocation requirements
-
-Trigger lottery sampling for selection
-
-Send targeted notifications (selected, waiting list, cancelled)
-
-Draw replacement entrants if someone cancels
-
-Export final list of confirmed attendees as CSV
-
-Manage cancelled, selected, and enrolled lists
-
-🛡️ Admin Features
-
-Remove events, images, and profiles
-
-Browse and review all system-level content
-
-Monitor notifications sent by organizers
-
-Remove organizers who violate policy
-
-🔥 System Architecture Highlights
-
-Clean, modular Java + XML codebase
-
-Firebase Firestore for scalable, realtime data
-
-QR code scanning with ZXing / ML Kit
-
-RecyclerView-based UI for efficient lists
-
-MVVM / MVC-inspired structure
-
-Offline support for certain screens
-
-Git version control & documented workflows
+### 🛡️ Admin Features
+- Browse all events, profiles, and uploaded images  
+- Remove inappropriate events, images, or profiles  
+- Review organizer notification logs  
+- Suspend organizers who violate policies  
