@@ -1,67 +1,72 @@
-# Tappit — Fair Event Lottery & Waiting List App
+Overview
 
-Tappit is an Android application built with **Firebase** and **Java**, designed to make event registration fair and accessible.  
-Instead of first-come-first-served signups, users join **lottery-based waiting lists** for popular community events.
+EventLotteryApp is an Android application built with Java and Firebase Firestore, designed to make registration for high-demand community events fair, efficient, and accessible.
 
+Instead of forcing users to race to register the moment an event opens, this app allows entrants to join a waiting list during an open registration window. When the window closes, a lottery system randomly selects participants, notifies them, and manages replacements if someone declines.
 
-## Project Part 2 Preparation:
-This section summarizes the required deliverables for **Project Part 2** and links to the detailed documentation in the Wiki.
----
+This ensures equal opportunity for people with work, accessibility, or schedule limitations.
 
-### Product Backlog
-A detailed list of numbered **user stories**, each describing a functional requirement for the app.  
-Includes:
-- Story-point estimates (relative effort)
-- Risk level (Low / Medium / High)
-- Notes on which stories were completed for the halfway checkpoint  
+Features
+👤 Entrant Features
 
-**View here:** [Product Backlog →](../../wiki/Product-Backlog)
+Browse events open for registration
 
----
+Join or leave event waiting lists
 
-### UI Mockups and Storyboard Sequences
-High-fidelity **UI mockups** and **storyboards** illustrating how users navigate through the app.  
-Each screen references related Product Backlog items.  
+Scan QR codes to quickly access event details
 
-#### 📱 Mockups
+Receive lottery notifications (selected / not selected)
 
-**View here:** [UI Mockupss](../../wiki/UI-Mockups-and-Storyboard)
+Accept or decline invitations
 
-#### 🔄 Storyboard Sequences
-Step-by-step diagrams showing:
-- User flow from launch → login → event browsing → event joining  
-- Organizer flow for creating / managing events
-- Adim flow for viewing the activity  
+View profile & update personal details
 
-📸 **View here:** [Storyboards Sequences →](../../wiki/UI-Mockups-and-Storyboard)
+See history of past registrations
 
----
+Device-based identification (no required login)
 
-### 3️⃣ Object-Oriented Analysis (CRC Cards)
-Initial design analysis using **Class–Responsibility–Collaborator (CRC)** cards.  
-Documents each class’s role, attributes, and relationships.  
+🧑‍💼 Organizer Features
 
-📘 **View here:** [Object-Oriented Analysis →](../../wiki/Object-Oriented-Analysis)
+Create and publish events with posters, dates, and registration windows
 
----
+Generate QR codes for event promotion
 
-## Project Part 3 - Half Way Checkpoint:
-This section summarizes the required deliverables for **Project Part 3** and our progress towards the final app.
----
-- [Product Backlog](https://github.com/tappit301/TAPPIT301F25/wiki/Product-Backlog:-project-3)
-- [UI Mockups](https://github.com/tappit301/TAPPIT301F25/wiki/UI-Mockups:-Project-3)
-- [Storyboards](https://github.com/tappit301/TAPPIT301F25/wiki/Storyboard:-Project-3)
-- [UML Diagrams](https://github.com/tappit301/TAPPIT301F25/wiki/UML-Class-Diagrams-Project-Part-3)
-- [CRC Cards](https://github.com/tappit301/TAPPIT301F25/wiki/CRC-CARDS:-Project-3)
+View and manage entrant waiting lists
 
-## Project Part 4 - Final Checkpoint:
-This section summarizes the required deliverables for **Project Part 4** and our final progress towards the final version of the app.
----
+Enable/disable geolocation requirements
 
-- [Product Backlog](https://github.com/tappit301/TAPPIT301F25/wiki/product_backlog4)
-- [UI Mockups](https://github.com/tappit301/TAPPIT301F25/wiki/UI-Mockups:-Part-4)
-- [Storyboards](https://github.com/tappit301/TAPPIT301F25/wiki/Storyboard:-Part-4)
-- [UML Diagrams](https://github.com/tappit301/TAPPIT301F25/wiki/UML-Diagrams:-part-4)
-- [CRC Cards](https://github.com/tappit301/TAPPIT301F25/wiki/CRC_cards4)
+Trigger lottery sampling for selection
 
----
+Send targeted notifications (selected, waiting list, cancelled)
+
+Draw replacement entrants if someone cancels
+
+Export final list of confirmed attendees as CSV
+
+Manage cancelled, selected, and enrolled lists
+
+🛡️ Admin Features
+
+Remove events, images, and profiles
+
+Browse and review all system-level content
+
+Monitor notifications sent by organizers
+
+Remove organizers who violate policy
+
+🔥 System Architecture Highlights
+
+Clean, modular Java + XML codebase
+
+Firebase Firestore for scalable, realtime data
+
+QR code scanning with ZXing / ML Kit
+
+RecyclerView-based UI for efficient lists
+
+MVVM / MVC-inspired structure
+
+Offline support for certain screens
+
+Git version control & documented workflows
