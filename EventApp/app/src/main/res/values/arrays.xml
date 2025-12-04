@@ -1,0 +1,15 @@
+<resources>
+    <string-array name="sort_options">
+        <item>Recommended</item>
+        <item>Date (Soonest)</item>
+        <item>Date (Latest)</item>
+        <item>Alphabetical</item>
+    </string-array>
+
+    <string-array name="event_categories">
+        <item>Technology</item>
+        <item>Sports</item>
+        <item>Entertainment</item>
+        <item>Social</item>
+    </string-array>
+</resources>
