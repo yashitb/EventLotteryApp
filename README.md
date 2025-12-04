@@ -9,7 +9,7 @@ This ensures **equal opportunity** for people with work, accessibility, or sched
 
 ---
 
-## ✨ Features
+## ✨ [Features](https://github.com/yashitb/EventLotteryApp/wiki)
 
 
 ### 👤 Entrant Features
