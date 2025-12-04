@@ -1,14 +1,3 @@
-## Project Part 0: Team Members
-
-| # | Name                 | CCID        |
-|:-:|----------------------|-------------|
-| 1 | **Vasu Aggarwal**    | aggarwa2    |
-| 2 | **Siya Hindwan**     | hindwan     |
-| 3 | **Krishika Khosla**  | krishik1    |
-| 4 | **Yashit Bamba**     | yashit      |
-| 5 | **Pavan Sampath Kala** | vkala     |
-| 6 | **Aymone Wilson**    | wilsonba    |
-
 # Tappit — Fair Event Lottery & Waiting List App
 
 Tappit is an Android application built with **Firebase** and **Java**, designed to make event registration fair and accessible.  
